@@ -1,13 +1,13 @@
 package neutrino
 
 import (
-	"github.com/btcsuite/btcd/addrmgr"
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/peer"
-	"github.com/btcsuite/btcd/txscript"
+	"github.com/Divicoin/btcd/addrmgr"
+	"github.com/Divicoin/btcd/blockchain"
+	"github.com/Divicoin/btcd/peer"
+	"github.com/Divicoin/btcd/txscript"
 	"github.com/btcsuite/btclog"
-	"github.com/lightninglabs/neutrino/blockntfns"
-	"github.com/lightninglabs/neutrino/pushtx"
+	"github.com/Divicoin/neutrino/blockntfns"
+	"github.com/Divicoin/neutrino/pushtx"
 )
 
 // log is a logger that is initialized with no output filters.  This
